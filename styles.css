@@ -79,6 +79,23 @@ body {
     padding: 17px;
   }
   
+  #about img {
+    float: none;
+    margin: 0 auto 20px; /* Adjust the margin as needed */
+    display: block;
+    max-width: 50%;
+  }
+  
+  /* Update styles for the text below the image */
+  #about p {
+    text-align: left; /* Align the text to the center */
+  }
+  
+  /* Center the h2 element */
+  #about h2 {
+    text-align: center;
+  }
+  
   #gallery .photos img {
     width: 100%;
   }
@@ -88,7 +105,7 @@ body {
   }
   
   .social-links li {
-    display: inline-block;
+    display: inline-flex;
     margin: 5px;
   }
 }
