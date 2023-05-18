@@ -39,9 +39,9 @@ body {
   }
   
   
-  
-  #connect .social-links {
+#connect .social-links {
     text-align: left;
+    padding: 0; /* Add this line to remove any default padding */
   }
   
   #connect .social-links li {
@@ -49,13 +49,26 @@ body {
     margin-bottom: 15px; /* Increase the margin bottom value for more spacing */
   }
   
-  .social-links a {
-    display: inline-block; /* Add this line to make the links display as blocks */
-    text-decoration: none;
-    color: #000;
-    background-color: #f2f2f2;
-    padding: 10px;
-    border-radius: 5px;
+  .social-links {
+    list-style: none; /* Add this line to remove the bullets */
+    padding: 0; /* Add this line to remove any default padding */
+  }
+  
+  /* Styling for link states */
+  .social-links a:link {
+    color: red;
+  }
+  
+  .social-links a:visited {
+    color: green;
+  }
+  
+  .social-links a:hover {
+    color: hotpink;
+  }
+  
+  .social-links a:active {
+    color: blue;
   }
   
   
